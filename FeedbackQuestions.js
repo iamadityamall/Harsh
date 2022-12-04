@@ -119,4 +119,8 @@ function addQuestions(question) {
 submitButton.addEventListener("click", function (e) {
   e.preventDefault();
   console.log(questionArray);
+  const mobileNumber = mobileNumberInput.value;
+  console.log(mobileNumber);
+  const newArray = [mobileNumber, ...questionArray];
+  console.log(newArray);
 });
