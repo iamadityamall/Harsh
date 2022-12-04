@@ -87,13 +87,7 @@ button {
   height: 100%;
 }
 
-#addQueriesButton:hover {
-  background: var(--primary-color);
-  color: var(--ternary-color);
-  border: 2px solid var(--ternary-color);
-  font-weight: bold;
-  box-shadow: var(--boxShadow);
-}
+
 
 input,
 textarea {
@@ -123,6 +117,14 @@ input::placeholder {
 label {
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+#addQueriesButton:hover {
+  background: var(--primary-color);
+  color: var(--ternary-color);
+  border: 2px solid var(--ternary-color);
+  font-weight: bold;
+  box-shadow: var(--boxShadow);
 }
 
 .mainSection {
