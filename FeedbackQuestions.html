@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FeedBack || Questions</title>
+    <link rel="stylesheet" href="./FeedbackQuestions.css" />
+    <link rel="stylesheet" href="./fonts/css/all.css" />
+    <link rel="stylesheet" href="./fonts/css/all.min.css" />
+    <link rel="stylesheet" href="./fonts/css/brands.css" />
+    <link rel="stylesheet" href="./fonts/css/fontawesome.css" />
+    <link rel="stylesheet" href="./fonts/css/solid.css" />
+    <link rel="stylesheet" href="./fonts/css/regular.css" />
+  </head>
+  <body>
+    <section class="mainSection">
+      <aside class="heroInfoContainer">
+        <div class="heroInfoContainer_heading">
+          <h1>
+            Feel free to drop us a a line and give us your feedback questions
+          </h1>
+          <p>We are looking forward to hearing back from you</p>
+        </div>
+        <figure class="heroInfoContainer_figure">
+          <img src="./image/review_ratings.gif" alt="" />
+        </figure>
+      </aside>
+      <div class="mainSection_right">
+        <h1 class="mainSection_heading">Feedback Questions</h1>
+        <form class="formContainer">
+          <main class="formContainer_hero">
+            <div class="hero_mobileNumber">
+              <label for="mobileNumber">Mobile number:</label
+              ><input
+                id="mobileNumber"
+                type="tel"
+                placeholder="Enter Your Mobile number"
+              />
+            </div>
+            <div class="hero_addQuestions">
+              <div class="questionsInput">
+                <label for="questionsInput">Type your Queries:</label
+                >
+                <input
+                  id="questionsInput"
+                  type="text"
+                  placeholder="eg: What is your Wi-Fi password ?"
+                />
+              </div>
+              <button type="button" id="addQueriesButton">Add</button>
+            </div>
+            <div class="questionsContainer">
+              <h1>Say Hello Bucket 👋</h1>
+            </div>
+          </main>
+          <div class="formButtonContainer">
+            <button type="reset" id="resetButton">Reset</button
+            ><button type="button" id="submitButton">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="./FeedbackQuestions.js"></script>
+  </body>
+</html>
