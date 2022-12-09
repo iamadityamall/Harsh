@@ -54,6 +54,7 @@ function addQuestions(question) {
     question: questionAsked,
   };
   questionArray.push(dic);
+  
   //questionDiv
   const questionDiv = document.createElement("div");
   questionDiv.classList.add("question");
